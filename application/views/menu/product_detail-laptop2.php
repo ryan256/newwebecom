@@ -1,7 +1,7 @@
 <div class="span9">
     <ul class="breadcrumb">
-    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-    <li><a href="products laptop.html">Items</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo base_url();?>index.php/Masuk/laptop">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
     </ul>	
 	<div class="well well-small">
@@ -113,11 +113,23 @@
 				</tbody>
 				</table>
 
-				<p>Ciri khas dari laptop Predator adalah bentuknya yang super keren dan garang. Walaupun Predator Helios 300 ini dibuat dengan harga yang cukup murah dibandingkan dengan seri Predator lainnya, Acer tetap mempertahankan desain super hardcore ciri khas para gamers. Dengan pilihan layar 15,6 inci dan 17,3 inci, kamu bisa memilih laptop dengan layar sesuai dengan kebutuhan. Kamu juga akan melihat tampilan siluet merah khas di bagian depan laptop dan keyboard.</p>
+				<p>
+				Ciri khas dari laptop Predator adalah bentuknya yang super keren dan garang. 
+				Walaupun Predator Helios 300 ini dibuat dengan harga yang cukup murah dibandingkan 
+				dengan seri Predator lainnya, Acer tetap mempertahankan desain super hardcore
+				ciri khas para gamers. Dengan pilihan layar 15,6 inci dan 17,3 inci,
+				kamu bisa memilih laptop dengan layar sesuai dengan kebutuhan. 
+				Kamu juga akan melihat tampilan siluet merah khas di bagian depan laptop dan keyboard.
+				</p>
 
-				<p>Keunggulan dari Predator Helios 300 terletak pada aspek spesifikasinya. Untuk urusan prosesor, Predator Helios 300 ini sudah dilengkapi dengan Intel® CoreTM i7-7700HQ processor atau Intel® CoreTM i5-7300HQ processor. Prosesor ini lah yang membuat segala kegiatan jenis game kamu, mau game adventure, action, FPS, atau apapun itu bisa tampil lebih maksimal.
+				<p>Keunggulan dari Predator Helios 300 terletak pada aspek spesifikasinya. 
+				Untuk urusan prosesor, Predator Helios 300 ini sudah dilengkapi 
+				dengan Intel® CoreTM i7-7700HQ processor atau Intel® CoreTM i5-7300HQ processor.
+				Prosesor ini lah yang membuat segala kegiatan jenis game kamu,
+				mau game adventure, action, FPS, atau apapun itu bisa tampil lebih maksimal.
 
-				Lalu, tentu grafis jadi bagian penting dalam produk gaming,  untuk GPU pada Helios 300, spAcer bisa memilih antara NVIDIA® GeForce® GTX 1060 dan NVIDIA® GeForce® GTX 1050 Ti. Beberapa pilihan di atas juga akan memudahkan kamu untuk memilih laptop gaming sesuai dengan kebutuhan.
+				Lalu, tentu grafis jadi bagian penting dalam produk gaming, 
+				untuk GPU pada Helios 300, spAcer bisa memilih antara NVIDIA® GeForce® GTX 1060 dan NVIDIA® GeForce® GTX 1050 Ti. Beberapa pilihan di atas juga akan memudahkan kamu untuk memilih laptop gaming sesuai dengan kebutuhan.
 
 				Soal memori yang dibenamkan pada perangkat ini, yaitu DDR4 16 GB yang bisa di-upgrade hingga 32 GB. Dengan begitu, kamu bisa menyimpan file penting lainnya untuk pelengkap kebutuhan gaming atau lainnya.</p>
 

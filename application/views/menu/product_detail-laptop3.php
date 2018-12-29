@@ -1,7 +1,7 @@
 <div class="span9">
     <ul class="breadcrumb">
-    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-    <li><a href="products laptop.html">Items</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo base_url();?>index.php/Masuk/laptop">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
     </ul>	
 <div class="well well-small">
@@ -107,7 +107,10 @@
 				</tbody>
 				</table>
 
-				<p>Desain dari Asus GL753VD mirip dengan GL752 sebelumnya dan GL702 yang lebih tipis. Laptop ini memiliki ukuran layar 17 inci dengan beberapa aksen oranye seperti logo ROG pada beberapa bagian dan merah di sekitar touchpad. Sirip pendingin di dalam casing serta kaki karet di bagian bawah juga berwarna.</p>
+				<p>Desain dari Asus GL753VD mirip dengan GL752 sebelumnya dan GL702 yang lebih tipis. 
+				Laptop ini memiliki ukuran layar 17 inci dengan beberapa aksen oranye seperti logo 
+				ROG pada beberapa bagian dan merah di sekitar touchpad. Sirip pendingin di dalam casing 
+				serta kaki karet di bagian bawah juga berwarna.</p>
 
 				<p>Yang berbeda dari Asus GL753VD adalah sistem dan keyboard yang akan menyala, seperti logo ROG yang ditutup. Kita hanya bisa melihat perbedaan kecil dibandingkan dengan pendahulunya GL752.  GL753 mendapat elemen visual tambahan di bagian atas unit dasar. Mereka menciptakan efek tiga dimensi, meskipun perangkat itu sendiri benar-benar datar.
 

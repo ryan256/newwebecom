@@ -7,9 +7,12 @@
 		<div class="span6">
 			<h5>Dell Alienware 15 R3</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Dell Alienware 15 R3 memiliki desain yang sangat gahar, 
+			kesannya seperti menyimpan performa yang buas. 
+			Alienware 15 R3 dibekali dengan layar berukuran besar, 
+			sebesar 15.6 inch dengan tingkat resolusi full HD 1920 x 1080 pixels.
+			Besarnya ukuran layar tersebut tentu aja bakal memanjakan mata
+			kamu pada saat sedang bermain game.
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -19,8 +22,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop1" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop1" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
@@ -33,9 +36,9 @@
 		<div class="span6">
 			<h5>Asus ROG Strix GL 753VD</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Desain dari Asus GL753VD mirip dengan GL752 sebelumnya dan GL702 yang lebih tipis. 
+			Laptop ini memiliki ukuran layar 17 inci dengan beberapa aksen oranye seperti logo 
+			ROG pada beberapa bagian dan merah di sekitar touchpad.
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -45,8 +48,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop3" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop3" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
@@ -59,9 +62,10 @@
 		<div class="span6">
 			<h5>Acer Predator Helios 300 PH317-51</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Ciri khas dari laptop Predator adalah bentuknya yang super keren dan garang. 
+			Walaupun Predator Helios 300 ini dibuat dengan harga yang cukup murah dibandingkan 
+			dengan seri Predator lainnya, Acer tetap mempertahankan desain super hardcore
+			ciri khas para gamers.
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -71,8 +75,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop2" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produklaptop2" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
@@ -84,10 +88,11 @@
 		</div>
 		<div class="span6">
 			<h5>Bloody ML160A Gaming Mouse [Original/ 17 Buttons/ Laser/ Infrared/ Macro]</h5>
+			
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Gaming mouse dengan menggunakan teknologi terbaru LK Optic switch yang bereaksi pada 
+			kecepatan cahaya dengan respon 0.2ms. Jauh melebihi kecepatan switch metal konvensional.
+
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -97,8 +102,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse2" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse2" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
@@ -111,9 +116,9 @@
 		<div class="span6">
 			<h5>Logitech G304 LightSpeed Wireless Gaming Mouse</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			G304 adalah wireless gaming mouse dengan teknologi wireless lightspeed yang inovatif. 
+			Didesain untuk menghadirkan kinerja tinggi,
+			G304 dilengkapi sensor HERO dengan kinerja 12.000 DPI dan konektivitas 1 md wireless lightspeed.
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -123,8 +128,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse1" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse1" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
@@ -137,9 +142,8 @@
 		<div class="span6">
 			<h5>Logitech G102 Prodigy RGB Gaming Mouse</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Mouse Logitech Prodigy G102 hadir dengan desain klasik yang dibekali sensor optik sekelas mouse gaming.
+			Tombol Tensioning terbaru yang disematkan pada mouse ini mampu memberikan kenyamanan dan kinerja mouse yang lebih cepat.
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -149,8 +153,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="product_details.html" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="product_details.html" class="shopBtn">VIEW</a>
+		  <a href="#" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="#" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>

@@ -7,9 +7,9 @@
 		  <ul class="thumbnails">
 			<li class="span4">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/mouse1.png" alt=""></a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse1" class="overlay"></a>
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkmouse1" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse1"><img src="<?php echo base_url();?>assets/gambar/mouse1.png" alt=""></a>
 				<div class="caption cntr">
 					<p>Logitech G304 LightSpeed Wireless Gaming Mouse</p>
 					<p><strong>Rp599.000</strong></p>
@@ -24,9 +24,9 @@
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/mouse2.png" alt=""></a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse2" class="overlay"></a>
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkmouse2" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse2"><img src="<?php echo base_url();?>assets/gambar/mouse2.png" alt=""></a>
 				<div class="caption cntr">
 					<p>Bloody ML160A Gaming Mouse [Original/ 17 Buttons/ Laser/ Infrared/ Macro]</p>
 					<p><strong>Rp.316.200</strong></p>

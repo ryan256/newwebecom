@@ -134,6 +134,30 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function produkmouse1()
+	{
+		$data['title']                  = 'Logitech G304 LightSpeed Wireless Gaming Mouse';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-mouse1');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function produkmouse2()
+	{
+		$data['title']                  = 'Bloody ML160A Gaming Mouse';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-mouse2');
+		$this->load->view('menu/bawah');
+
+	}
 
 
 }

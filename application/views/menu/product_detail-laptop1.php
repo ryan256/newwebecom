@@ -1,7 +1,7 @@
 	<div class="span9">
     <ul class="breadcrumb">
-    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-    <li><a href="products laptop.html">Items</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo base_url();?>index.php/Masuk/laptop">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
     </ul>	
 	<div class="well well-small">
@@ -116,11 +116,26 @@
 				</body>
 				</table>
 
-				<p>Dell Alienware 15 R3 memiliki desain yang sangat gahar, kesannya seperti menyimpan performa yang buas. Alienware 15 R3 dibekali dengan layar berukuran besar, sebesar 15.6 inch dengan tingkat resolusi full HD 1920 x 1080 pixels. Besarnya ukuran layar tersebut tentu aja bakal memanjakan mata kamu pada saat sedang bermain game.</p>
+				<p>
+				Dell Alienware 15 R3 memiliki desain yang sangat gahar, 
+				kesannya seperti menyimpan performa yang buas. Alienware 15 R3 
+				dibekali dengan layar berukuran besar, sebesar 15.6 inch dengan 
+				tingkat resolusi full HD 1920 x 1080 pixels. Besarnya ukuran layar 
+				tersebut tentu aja bakal memanjakan mata kamu pada saat sedang bermain game.
+				</p>
 
-				<p>Performa handal Dell Alienware 15 R3 berasal dari Intel Core i7-7700HQ Quad Core Processor, 2.8 GHz (Max Turbo Frequency 3.8GHz), 6MB Smart Cache. Prosesor tersebut ditemani oleh RAM 16 GB DDR4. Khusus untuk mengurusi sektor grafis disematkanlah VGA NVIDIA GeForce GTX 1070 with 8GB GDDR5. Sedangkan sebagai media penyimpanan disediakanlah harddisk berkapasitas 1 TB dan SSD berkapasitas 256 GB.</p>
+				<p>
+				Performa handal Dell Alienware 15 R3 berasal dari Intel Core i7-7700HQ Quad Core Processor, 
+				2.8 GHz (Max Turbo Frequency 3.8GHz), 6MB Smart Cache. Prosesor tersebut ditemani oleh RAM 16 
+				GB DDR4. Khusus untuk mengurusi sektor grafis disematkanlah VGA NVIDIA GeForce GTX 1070 with 8GB
+				GDDR5. Sedangkan sebagai media penyimpanan disediakanlah harddisk berkapasitas
+				1 TB dan SSD berkapasitas 256 GB.
+				</p>
 
-				<p>Dell Alienware 15 R3 memiliki banyak konektivitas port, seperti RJ-45, USB 3.0, Thunderbolt 3, HDMI, mini display port, Alienware Graphics Amplifier Port, Noble Lock port, dan port untuk audio.</p>
+				<p>
+				Dell Alienware 15 R3 memiliki banyak konektivitas port, seperti RJ-45, USB 3.0, 
+				Thunderbolt 3, HDMI, mini display port, Alienware Graphics Amplifier Port, 
+				Noble Lock port, dan port untuk audio.</p>
 
 			</div>
 			
