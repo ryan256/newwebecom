@@ -8,7 +8,7 @@
 					<a href="#"><span class="icon-youtube"></span></a>
 					<a href="#"><span class="icon-tumblr"></span></a>
 				</div>
-				<a class="active" href="index.html"> <span class="icon-home"></span> Home</a> 
+				<a href="<?php if($title=='TRUSH SHOP') echo 'active'; ?>"><a href="<?php echo site_url('');?>"> <span class="icon-home"></span> Home</a> 
 				<a href="#"><span class="icon-user"></span> My Account</a> 
 				<a href="<?php if($title=='Register') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/regis"><span class="icon-edit"></span> Free Register </a> 
 				<a href="<?php if($title=='Contact') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/contact"><span class="icon-envelope"></span> Contact us</a>

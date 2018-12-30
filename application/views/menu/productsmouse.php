@@ -41,9 +41,9 @@
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a href="product_details.html" class="overlay"></a>
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/mouse3.png" alt=""></a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse3" class="overlay"></a>
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkmouse3" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a href="<?php echo base_url();?>index.php/Masuk/produkmouse3"><img src="<?php echo base_url();?>assets/gambar/mouse3.png" alt=""></a>
 				<div class="caption cntr">
 					<p>Logitech G102 Prodigy RGB Gaming Mouse</p>
 					<p><strong>Rp.300.000</strong></p>

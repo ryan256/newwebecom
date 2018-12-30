@@ -52,7 +52,7 @@ Body Section
 		<li><a href="<?php if($title=='Products Laptop') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/laptop"><span class="icon-chevron-right"></span>Laptop</a></li>
 		<li><a href="<?php if($title=='Products Mouse') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/mouse"><span class="icon-chevron-right"></span>Mouse</a></li>
 		<li style="border:0"> &nbsp;</li>
-		<li> <a class="totalInCart" href="cart.html"><strong>Total Amount <span class="badge badge-warning pull-right" style="line-height:18px;">Rp.- </span></strong></a></li>
+		<li> <a class="totalInCart" href="<?php echo base_url();?>index.php/Masuk/cart"><strong>Total Amount <span class="badge badge-warning pull-right" style="line-height:18px;">Rp.- </span></strong></a></li>
 	</ul>
 </div>
 
@@ -68,20 +68,20 @@ Body Section
 			<li>
 			
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<img src="<?php echo base_url();?>assets/gambar/produk upcoming1.png" alt="bootstrap ecommerce templates">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">-</span></h4>
+				  <h4><a class="defaultBtn" href="#">VIEW</a> <span class="pull-right">-</span></h4>
 				</div>
 			  </div>
 			</li>
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<img src="<?php echo base_url();?>assets/gambar/produk upcoming2.png" alt="shopping cart template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">-</span></h4>
+				  <h4><a class="defaultBtn" href="#">VIEW</a> <span class="pull-right">-</span></h4>
 				</div>
 			  </div>
 			</li>

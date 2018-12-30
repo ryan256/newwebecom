@@ -158,6 +158,30 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function produkmouse3()
+	{
+		$data['title']                  = 'Logitech G102 Prodigy RGB Gaming Mouse';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-mouse3');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function produkkeyboard()
+	{
+		$data['title']                  = 'Razer BlackWidow Chroma Gaming Keyboard';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-keyboard');
+		$this->load->view('menu/bawah');
+
+	}
 
 
 }

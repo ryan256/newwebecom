@@ -18,7 +18,7 @@
 			<a href="#"><img alt="" src="<?php echo base_url();?>assets/gambar/nvidia.jpg"></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="<?php echo base_url();?>assets/gambar/intel.png"></a>
+			<a href="#"><img alt="" src="<?php echo base_url();?>assets/gambar/logo.png"></a>
 		</div>
 		<div class="span2">
 			<a href="#"><img alt="" src="<?php echo base_url();?>assets/gambar/MSIlogo.png"></a>

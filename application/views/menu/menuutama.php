@@ -66,8 +66,8 @@
       </li>
       <li class="span4">
         <div class="thumbnail">
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-        <a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/razerkey.png" alt=""></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkkeyboard" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+        <a href="<?php echo base_url();?>index.php/Masuk/produkkeyboard"><img src="<?php echo base_url();?>assets/gambar/razerkey.png" alt=""></a>
         <div class="caption cntr">
           <p>Razer BlackWidow Chroma Gaming Keyboard</p>
           <p><strong>Rp.1.850.000</strong></p>
@@ -107,12 +107,12 @@
       <ul class="thumbnails">
       <li class="span4">
         <div class="thumbnail">
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-        <a  href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/predator.png" alt=""></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produklaptop2" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+        <a  href="<?php echo base_url();?>index.php/Masuk/produklaptop2"><img src="<?php echo base_url();?>assets/gambar/predator.png" alt=""></a>
         <div class="caption">
           <h5>Acer Predator Helios 300 PH317-51</h5>
           <h5>
-            <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
+            <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop2" title="Click to view"><span class="icon-zoom-in"></span></a>
             <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.22.999.000</span></h5>
         </div>
@@ -120,12 +120,12 @@
       </li>
       <li class="span4">
         <div class="thumbnail">
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-        <a  href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/alienwaredell.png" alt=""></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produklaptop1" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+        <a  href="<?php echo base_url();?>index.php/Masuk/produklaptop1"><img src="<?php echo base_url();?>assets/gambar/alienwaredell.png" alt=""></a>
         <div class="caption">
           <h5>Dell Alienware 15 R3</h5>
           <h5>
-            <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
+            <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop1" title="Click to view"><span class="icon-zoom-in"></span></a>
             <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.20.790.000</span></h5>
         </div>
@@ -133,12 +133,12 @@
       </li>
       <li class="span4">
         <div class="thumbnail">
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-        <a  href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/asusrog.png" alt=""/></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produklaptop3" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+        <a  href="<?php echo base_url();?>index.php/Masuk/produklaptop3"> <img src="<?php echo base_url();?>assets/gambar/asusrog.png" alt=""/></a>
         <div class="caption">
           <h5>Asus ROG Strix GL 753VD</h5>
           <h5>
-            <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
+            <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop3" title="Click to view"><span class="icon-zoom-in"></span></a>
             <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.20.999.000</span></h5>
         </div>

@@ -57,10 +57,6 @@
 						</select>
 					</div>
 				  </div>
-				  <h4>100 items in stock</h4>
-				  <p>Nowadays the lingerie industry is one of the most successful business spheres.
-				  Nowadays the lingerie industry is one of ...
-				  <p>
 				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
 				</form>
 			</div>

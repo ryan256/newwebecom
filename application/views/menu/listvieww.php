@@ -153,8 +153,8 @@
 			<input type="checkbox">  Adds product to compair
 		</label><br>
 		<div class="btn-group">
-		  <a href="#" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
-		  <a href="#" class="shopBtn">VIEW</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse3" class="defaultBtn"><span class=" icon-shopping-cart"></span> Add to cart</a>
+		  <a href="<?php echo base_url();?>index.php/Masuk/produkmouse3" class="shopBtn">VIEW</a>
 		 </div>
 			</form>
 		</div>
