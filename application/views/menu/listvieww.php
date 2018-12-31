@@ -167,9 +167,7 @@
 		<div class="span6">
 			<h5>Razer BlackWidow Chroma Gaming Keyboard</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			-
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -193,9 +191,7 @@
 		<div class="span6">
 			<h5>AMD A10-7870K</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			-
 			</p>
 		</div>
 		<div class="span4 alignR">
@@ -219,9 +215,12 @@
 		<div class="span6">
 			<h5>Corsair SO-DIMM DDR3 8GB PC12800(2X4GB)</h5>
 			<p>
-			Nowadays the lingerie industry is one of the most successful business spheres.
-			We always stay in touch with the latest fashion tendencies - 
-			that is why our goods are so popular..
+			Vengeance SODIMM kits 1,5 Volt dirancang untuk laptop yang menggunakan prosesor Intel Core i5
+			atau Core i7 generasi kedua atau ketiga. Sebagian besar laptop, bahkan laptop yang dijual dengan
+			menjanjikan performa tinggi, memiliki ukuran memori yang masih belum mampu mencapai kecepatan m
+			aksimal yang sudah didukung oleh prosesornya.
+
+
 			</p>
 		</div>
 		<div class="span4 alignR">

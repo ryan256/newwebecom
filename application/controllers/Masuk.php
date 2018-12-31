@@ -182,6 +182,30 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function produkram1()
+	{
+		$data['title']                  = 'Corsair SO-DIMM DDR3 8GB PC12800(2X4GB)';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-ram1');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function produkprocessor()
+	{
+		$data['title']                  = 'AMD A10-7870K';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-processor1');
+		$this->load->view('menu/bawah');
+
+	}
 
 
 }

@@ -51,8 +51,8 @@
       <li class="span4">
         <div class="thumbnail">
          
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-		<a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/amd1.png" alt=""></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkprocessor" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+		<a href="<?php echo base_url();?>index.php/Masuk/produkprocessor"><img src="<?php echo base_url();?>assets/gambar/amd1.png" alt=""></a>
         <div class="caption cntr">
           <p>AMD A10-7870K</p>
           <p><strong> Rp.1.985.000</strong></p>
@@ -81,8 +81,8 @@
       </li>
       <li class="span4">
         <div class="thumbnail">
-        <a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-        <a href="product_details.html"><img src="<?php echo base_url();?>assets/gambar/ram1.png" alt=""></a>
+        <a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkram1" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+        <a href="<?php echo base_url();?>index.php/Masuk/produkram1"><img src="<?php echo base_url();?>assets/gambar/ram1.png" alt=""></a>
         <div class="caption cntr">
           <p>Corsair SO-DIMM DDR3 8GB PC12800(2X4GB)</p>
           <p><strong>Rp.1.170.000</strong></p>
