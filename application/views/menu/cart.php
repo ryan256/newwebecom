@@ -46,7 +46,7 @@ Body Section
 <div class="row">
 	<div class="span12">
     <ul class="breadcrumb">
-		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+		<li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
 		<li class="active">Check Out</li>
     </ul>
 	<div class="well well-small">

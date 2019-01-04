@@ -1,7 +1,7 @@
 	<div class="span9">
     <ul class="breadcrumb">
     <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
-    <li><a href="<?php echo base_url();?>index.php/Masuk/mouse">Items</a> <span class="divider">/</span></li>
+   
     <li class="active">Preview</li>
     </ul>	
 	<div class="well well-small">
