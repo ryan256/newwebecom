@@ -218,6 +218,18 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function produkvga1()
+	{
+		$data['title']                  = 'VGA Nvidia Quadro M6000';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-vga1');
+		$this->load->view('menu/bawah');
+
+	}
 
 
 }

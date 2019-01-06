@@ -78,10 +78,10 @@ Body Section
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<img src="<?php echo base_url();?>assets/gambar/produk upcoming2.png" alt="shopping cart template">
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produkvga1" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<img src="<?php echo base_url();?>assets/gambar/produk upcoming3.png" alt="shopping cart template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="#">VIEW</a> <span class="pull-right">-</span></h4>
+				  <h4><a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produkvga1">VIEW</a> <span class="pull-right">-</span></h4>
 				</div>
 			  </div>
 			</li>
