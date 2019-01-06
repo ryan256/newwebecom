@@ -195,6 +195,18 @@ class Masuk extends CI_Controller {
 
 	}
 	
+	public function produkram2()
+	{
+		$data['title']                  = 'New Processor Intel Core I9 7980XE 18 Core';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-ram2');
+		$this->load->view('menu/bawah');
+
+	}
+	
 	public function produkprocessor()
 	{
 		$data['title']                  = 'AMD A10-7870K';
