@@ -197,7 +197,7 @@ class Masuk extends CI_Controller {
 	
 	public function produkram2()
 	{
-		$data['title']                  = 'New Processor Intel Core I9 7980XE 18 Core';
+		$data['title']                  = 'Intel Core I9 7980XE 18 Core';
 
 		$this->load->view('menu/atas',$data);
 		$this->load->view('menu/menunav');
@@ -221,7 +221,7 @@ class Masuk extends CI_Controller {
 	
 	public function produkvga1()
 	{
-		$data['title']                  = 'VGA Nvidia Quadro M6000';
+		$data['title']                  = 'Nvidia Quadro M6000';
 
 		$this->load->view('menu/atas',$data);
 		$this->load->view('menu/menunav');

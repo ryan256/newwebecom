@@ -13,10 +13,10 @@
                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming3.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming3.png" alt="" style="width:100%"></a>
+                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming3.2.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming3.png" alt="" style="width:100%"></a>
+                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming3.3.png" alt="" style="width:100%"></a>
                   </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
@@ -24,7 +24,7 @@
             </div>
 			</div>
 			<div class="span7">
-				<h3>VGA Nvidia Quadro M6000</h3>
+				<h3>Nvidia Quadro M6000</h3>
 				<hr class="soft"/>
 				
 				<form class="form-horizontal qtyFrm">

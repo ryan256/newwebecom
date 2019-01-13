@@ -13,10 +13,10 @@
                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming1.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming1.png" alt="" style="width:100%"></a>
+                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming1.2.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming1.png" alt="" style="width:100%"></a>
+                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/produk upcoming1.3.png" alt="" style="width:100%"></a>
                   </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
@@ -24,7 +24,7 @@
             </div>
 			</div>
 			<div class="span7">
-				<h3>New Processor Intel Core I9 7980XE 18 Core</h3>
+				<h3>Intel Core I9 7980XE 18 Core</h3>
 				<hr class="soft"/>
 				
 				<form class="form-horizontal qtyFrm">
