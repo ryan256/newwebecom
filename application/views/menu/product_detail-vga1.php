@@ -1,7 +1,7 @@
 	<div class="span9">
     <ul class="breadcrumb">
     <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
-   
+   <li><a href="<?php echo base_url();?>index.php/Masuk/vga">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
     </ul>	
 	<div class="well well-small">
@@ -29,34 +29,13 @@
 				
 				<form class="form-horizontal qtyFrm">
 				  <div class="control-group">
-					<label class="control-label"><span>Rp79.500.000</span></label>
+					<label class="control-label"><span>Rp.79.500.000</span></label>
 					<div class="controls">
 					<input type="number" class="span6" placeholder="Qty.">
 					</div>
 				  </div>
 				
-				  <div class="control-group">
-					<label class="control-label"><span>Color</span></label>
-					<div class="controls">
-					  <select class="span11">
-						  <option>Red</option>
-						  <option>Purple</option>
-						  <option>Pink</option>
-						  <option>Red</option>
-						</select>
-					</div>
-				  </div>
-				  <div class="control-group">
-					<label class="control-label"><span>Materials</span></label>
-					<div class="controls">
-					  <select class="span11">
-						  <option>Material 1</option>
-						  <option>Material 2</option>
-						  <option>Material 3</option>
-						  <option>Material 4</option>
-						</select>
-					</div>
-				  </div>
+				  
 				  
 				  <!--<button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
 				--></form>

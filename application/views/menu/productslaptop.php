@@ -73,12 +73,16 @@
 		  <ul class="thumbnails">
 			<li class="span4">
 			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
+				
+				<a href="<?php echo base_url();?>index.php/Masuk/produklaptop4"  class="overlay"></a>
+				
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produklaptop4" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				
+				<a href="<?php echo base_url();?>index.php/Masuk/produklaptop4"><img src="<?php echo base_url();?>assets/gambar/asusvivo1.png" alt=""></a>
+				
 				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
+					<p>ASUS VivoBook Max X441NA</p>
+					<p><strong> Rp.3.750.000</strong></p>
 					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
@@ -90,12 +94,16 @@
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
+				
+				<a href="<?php echo base_url();?>index.php/Masuk/produklaptop5"  class="overlay"></a>
+				
+				<a class="zoomTool" href="<?php echo base_url();?>index.php/Masuk/produklaptop5" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				
+				<a href="<?php echo base_url();?>index.php/Masuk/produklaptop5"><img src="<?php echo base_url();?>assets/gambar/inspiron1.png" alt=""></a>
+				
 				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
+					<p>DELL New Inspiron 15 7000 Gaming 7567 ZAC030</p>
+					<p><strong> Rp.26.180.000</strong></p>
 					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
@@ -105,80 +113,11 @@
 				</div>
 			  </div>
 			</li>
-			<li class="span4">
-			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
+			
+			
 		  </ul>
 		</div>
-	<div class="row-fluid">
-		  <ul class="thumbnails">
-			<li class="span4">
-			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-			<li class="span4">
-			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-			<li class="span4">
-			  <div class="thumbnail">
-				<a href="#" class="overlay"></a>
-				<a class="zoomTool" href="#" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="#"><img src="<?php echo base_url();?>assets/gambar/comingsoon.jpg" alt=""></a>
-				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
-					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
-					</div> 
-					<br class="clr">
-				</div>
-			  </div>
-			</li>
-		  </ul>
-		</div>
+	
 
 		  </ul>
 		</div>

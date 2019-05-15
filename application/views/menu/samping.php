@@ -11,8 +11,10 @@
 		<div class="nav-collapse">
 		<ul class="nav">
 		<li class="<?php if($title=='TRUSH SHOP') echo 'active'; ?>"><a href="<?php echo site_url('');?>">Home</a></li>
-		<li class="<?php if($title=='LIST') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/listt">List View</a></li>
+		<!--<li class="<?php //if($title=='LIST') echo 'active'; ?>"><a href="<?php// echo base_url();?>index.php/Masuk/listt">List View</a></li>
+		-->
 		</ul>
+		
 			
 			
 			<ul class="nav pull-right">
@@ -51,6 +53,9 @@ Body Section
 	<ul class="nav nav-list">
 		<li><a href="<?php if($title=='Products Laptop') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/laptop"><span class="icon-chevron-right"></span>Laptop</a></li>
 		<li><a href="<?php if($title=='Products Mouse') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/mouse"><span class="icon-chevron-right"></span>Mouse</a></li>
+		<li><a href="<?php if($title=='Products Keyboard') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/keyboard"><span class="icon-chevron-right"></span>Keyboard</a></li>
+		<li><a href="<?php if($title=='Products VGA') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/vga"><span class="icon-chevron-right"></span>VGA & RAM</a></li>
+		<li><a href="<?php if($title=='Products Processor') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/Processor"><span class="icon-chevron-right"></span>Processor</a></li>
 		<li style="border:0"> &nbsp;</li>
 		<li> <a class="totalInCart" href="<?php echo base_url();?>index.php/Masuk/cart"><strong>Total Amount <span class="badge badge-warning pull-right" style="line-height:18px;">Rp.- </span></strong></a></li>
 	</ul>

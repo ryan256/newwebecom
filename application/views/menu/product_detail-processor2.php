@@ -10,13 +10,13 @@
 			<div id="myCarousel" class="carousel slide cntr">
                 <div class="carousel-inner">
                   <div class="item active">
-                   <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.png" alt="" style="width:100%"></a>
+                   <a href="#"> <img src="<?php echo base_url();?>assets/gambar/intel1.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.2.png" alt="" style="width:100%"></a>
+                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/intel2.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.3.png" alt="" style="width:100%"></a>
+                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/intel3.png" alt="" style="width:100%"></a>
                   </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
@@ -24,12 +24,12 @@
             </div>
 			</div>
 			<div class="span7">
-				<h3>AMD A10-7870K</h3>
+				<h3>INTEL Core i7-6700K</h3>
 				<hr class="soft"/>
 				
 				<form class="form-horizontal qtyFrm">
 				  <div class="control-group">
-					<label class="control-label"><span>Rp.1.985.000</span></label>
+					<label class="control-label"><span>Rp.3.750.000</span></label>
 					<div class="controls">
 					<input type="number" class="span6" placeholder="Qty.">
 					</div>

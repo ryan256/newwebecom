@@ -1,7 +1,7 @@
 	<div class="span9">
     <ul class="breadcrumb">
     <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
-    <li><a href="<?php echo base_url();?>index.php/Masuk/processor">Items</a> <span class="divider">/</span></li>
+    <li><a href="<?php echo base_url();?>index.php/Masuk/keyboard">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
     </ul>	
 	<div class="well well-small">
@@ -10,13 +10,13 @@
 			<div id="myCarousel" class="carousel slide cntr">
                 <div class="carousel-inner">
                   <div class="item active">
-                   <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.png" alt="" style="width:100%"></a>
+                   <a href="#"> <img src="<?php echo base_url();?>assets/gambar/nyk1.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.2.png" alt="" style="width:100%"></a>
+                     <a href="#"> <img src="<?php echo base_url();?>assets/gambar/nyk2.png" alt="" style="width:100%"></a>
                   </div>
                   <div class="item">
-                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/amd1.3.png" alt="" style="width:100%"></a>
+                    <a href="#"> <img src="<?php echo base_url();?>assets/gambar/nyk3.png" alt="" style="width:100%"></a>
                   </div>
                 </div>
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
@@ -24,12 +24,12 @@
             </div>
 			</div>
 			<div class="span7">
-				<h3>AMD A10-7870K</h3>
+				<h3>NYK K-01 TKL</h3>
 				<hr class="soft"/>
 				
 				<form class="form-horizontal qtyFrm">
 				  <div class="control-group">
-					<label class="control-label"><span>Rp.1.985.000</span></label>
+					<label class="control-label"><span>Rp.120.000</span></label>
 					<div class="controls">
 					<input type="number" class="span6" placeholder="Qty.">
 					</div>
@@ -56,36 +56,36 @@
 			  <h4>Spesifikasi</h4>
                 <table class="table table-striped">
 				<body>
-				<tr class="techSpecRow"><td class="techSpecTD1">Frequency</td>
-				<td class="techSpecTD2">3900 MHz</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Turbo Frequency</td>
-				<td class="techSpecTD2">4100 MHz</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Socket</td>
-				<td class="techSpecTD2">FM2+</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Processor Core</td>
-				<td class="techSpecTD2">Godavari</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Data Width</td>
-				<td class="techSpecTD2">64Bit</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Thermal Design Power</td>
-				<td class="techSpecTD2">95 Watt</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">The Number of CPU Cores	</td>
-				<td class="techSpecTD2">4</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
-				<tr class="techSpecRow"><td class="techSpecTD1">Manufacturing Process</td>
-				<td class="techSpecTD2">28 nm</td></tr>
+				<tr class="techSpecRow"><td class="techSpecTD1">-</td>
+				<td class="techSpecTD2">-</td></tr>
 
 
 				</body>
 				</table>
 
 				<p>
-				- 
+				-
 				</p>
 
 				<p>

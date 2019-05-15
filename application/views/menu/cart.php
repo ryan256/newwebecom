@@ -11,7 +11,7 @@
 		<div class="nav-collapse">
 		<ul class="nav">
 		<li class="<?php if($title=='TRUSH SHOP') echo 'active'; ?>"><a href="<?php echo site_url('');?>">Home</a></li>
-		<li class="<?php if($title=='LIST') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/listt">List View</a></li>
+		
 		</ul>
 			
 			

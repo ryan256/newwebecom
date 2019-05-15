@@ -12,25 +12,18 @@
                       <p><span>VivoBook Max X441NA</span></p>
                 </div>
               </div>
-			  <div class="item">
+			  <div class="item active">
                 <img style="width:100%" src="<?php echo base_url();?>assets/gambar/bg prosesor.png" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
                       <h4>Intel</h4><br></br><br></br>
                       <p><span>Core i7-6700K</span></p>
                 </div>
               </div>
-			  <div class="item active">
-                <img style="width:100%" src="<?php echo base_url();?>assets/gambar/bg vga.png" alt="bootstrap ecommerce templates">
-                <div class="carousel-caption">
-                      <h4>Radeon</h4>
-                      <p><span>VClub Radeon R9 290 4GB DDR5 512 Bit (Royal Ace)</span></p>
-                </div>
-              </div>
               <div class="item">
                 <img style="width:100%" src="<?php echo base_url();?>assets/gambar/bg laptop dell.png" alt="bootstrap templates">
                 <div class="carousel-caption">
                       <h4>DELL</h4><br></br><br></br>
-                      <p><span>New Inspiron 15 7000 Gaming</span></p>
+                      <p><span>New Inspiron 15 7000 Gaming  7567 ZAC030</span></p>
                 </div>
               </div>
             </div>

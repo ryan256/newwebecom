@@ -64,6 +64,42 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function vga()
+	{
+		$data['title']                  = 'Products VGA & RAM';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/productsvga');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function keyboard()
+	{
+		$data['title']                  = 'Products Keyboard';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/productskeyboard');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function processor()
+	{
+		$data['title']                  = 'Products processor';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/productsprocessor');
+		$this->load->view('menu/bawah');
+
+	}
 
 	public function regis()
 	{
@@ -98,6 +134,9 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	
+	
 
 	public function produklaptop1()
 	{
@@ -135,6 +174,33 @@ class Masuk extends CI_Controller {
 
 	}
 	
+	public function produklaptop4()
+	{
+		$data['title']                  = 'ASUS VivoBook Max X441NA';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-laptop4');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function produklaptop5()
+	{
+		$data['title']                  = 'DELL New Inspiron 15 7000 Gaming 7567 ZAC030';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-laptop5');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	
+	
+	
 	public function produkmouse1()
 	{
 		$data['title']                  = 'Logitech G304 LightSpeed Wireless Gaming Mouse';
@@ -171,6 +237,9 @@ class Masuk extends CI_Controller {
 
 	}
 	
+	
+	
+	
 	public function produkkeyboard()
 	{
 		$data['title']                  = 'Razer BlackWidow Chroma Gaming Keyboard';
@@ -182,6 +251,20 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	public function produkkeyboard2()
+	{
+		$data['title']                  = 'NYK K-01 TKL';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-keyboard2');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	
+	
 	
 	public function produkram1()
 	{
@@ -207,6 +290,9 @@ class Masuk extends CI_Controller {
 
 	}
 	
+	
+	
+	
 	public function produkprocessor()
 	{
 		$data['title']                  = 'AMD A10-7870K';
@@ -218,6 +304,21 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+	public function produkprocessor2()
+	{
+		$data['title']                  = 'INTEL Core i7-6700K';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/product_detail-processor2');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	
+	
 	
 	public function produkvga1()
 	{
