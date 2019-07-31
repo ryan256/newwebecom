@@ -3,21 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Masuk extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
 	public function index()
 	{
 		$data['title']                  = 'TRUSH SHOP';
@@ -28,6 +13,55 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/menuutama');
 		$this->load->view('menu/bawah');
 }
+
+	function buy(){
+		
+		$data['namabank']        = $this->input->post('namabank',true);
+		$data['norek']           = $this->input->post('norek',true);
+		
+		$this->pembelian_model->buying($data);
+
+		redirect('index.php/Masuk/successs');
+	}
+
+	public function login()
+	{
+		$data['title']                  = 'LOGIN';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/login');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	Function login_user (){
+		
+		$data['account']         = $this->input->post('account',true);
+		$data['password']        = $this->input->post('password',true);
+		
+		$this->registerlogin_model->login_us($data);
+		
+		
+		$xdata['account']     = $data['account'];
+		$this->session->set_userdata($xdata);
+		redirect('index.php/Masuk/index');
+	}
+	
+	Function add_cart(){
+		
+		//$data['account']     = $this->input->post('account',true);
+		$data['pname'] = $this->input->post('pname',true);
+		$data['unitprice']   = $this->input->post('unitprice',true);
+		$data['qty']         = $this->input->post('qty',true);
+		//$data['price']       = $this->input->post('price',true);
+		
+		$this->pembelian_model->addcart($data);
+		
+		redirect('index.php/Masuk/cart');
+		
+	}
 
 	public function listt()
 	{
@@ -112,6 +146,44 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
+		function register_save (){
+		
+		$data['account']         = $this->input->post('account',true);
+		$data['fname']           = $this->input->post('fname',true);
+		$data['email']           = $this->input->post('email',true);
+		$data['pnumber']         = $this->input->post('pnumber',true);
+		$data['password']        = $this->input->post('password',true);
+		
+		$this->registerlogin_model->register_save($data);
+
+		redirect('index.php/Masuk/success');
+	}
+	
+	public function success()
+	{
+		$data['title']                  = 'Register';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/success');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function successs()
+	{
+		$data['title']                  = 'Rekening';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/successs');
+		$this->load->view('menu/bawah');
+	}
+	
+	
 
 	public function contact()
 	{
@@ -120,6 +192,18 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/atas',$data);
 		$this->load->view('menu/menunav');
 		$this->load->view('menu/contact');
+		$this->load->view('menu/bawah');
+
+	}
+	
+	public function rekening()
+	{
+		$data['title']                  = 'Rekening';
+
+		$this->load->view('menu/atas',$data);
+		$this->load->view('menu/menunav');
+		$this->load->view('menu/samping');
+		$this->load->view('menu/rekening');
 		$this->load->view('menu/bawah');
 
 	}
@@ -132,11 +216,9 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/menunav');
 		$this->load->view('menu/cart');
 		$this->load->view('menu/bawah');
-
+		
+		$this->data['tampil']=$this->pembelian_model->showdata()->result_object();
 	}
-	
-	
-	
 
 	public function produklaptop1()
 	{
@@ -251,6 +333,7 @@ class Masuk extends CI_Controller {
 		$this->load->view('menu/bawah');
 
 	}
+	
 	public function produkkeyboard2()
 	{
 		$data['title']                  = 'NYK K-01 TKL';

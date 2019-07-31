@@ -13,7 +13,7 @@
 				<div class="caption cntr">
 					<p>Logitech G304 LightSpeed Wireless Gaming Mouse</p>
 					<p><strong>Rp599.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -30,7 +30,7 @@
 				<div class="caption cntr">
 					<p>Bloody ML160A Gaming Mouse [Original/ 17 Buttons/ Laser/ Infrared/ Macro]</p>
 					<p><strong>Rp.316.200</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -47,7 +47,7 @@
 				<div class="caption cntr">
 					<p>Logitech G102 Prodigy RGB Gaming Mouse</p>
 					<p><strong>Rp.300.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>

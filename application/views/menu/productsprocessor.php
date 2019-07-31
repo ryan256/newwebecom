@@ -16,7 +16,7 @@
 				<div class="caption cntr">
 					<p>AMD A10-7870K</p>
 					<p><strong>Rp.1.985.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -37,7 +37,7 @@
 				<div class="caption cntr">
 					<p>INTEL Core i7-6700K</p>
 					<p><strong>Rp.3.750.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -58,7 +58,7 @@
 				<div class="caption cntr">
 					<p>Intel Core I9 7980XE 18 Core</p>
 					<p><strong>Rp.32.600.0000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>

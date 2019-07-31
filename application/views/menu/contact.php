@@ -8,35 +8,6 @@
 		  </a>
 		 
 			
-		<div class="nav-collapse">
-		<ul class="nav">
-		<li class="<?php if($title=='TRUSH SHOP') echo 'active'; ?>"><a href="<?php echo site_url('');?>">Home</a></li>
-		
-		</ul>
-			
-			
-			<ul class="nav pull-right">
-			<li class="dropdown">
-				<a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
-				<div class="dropdown-menu">
-				<form class="form-horizontal loginFrm">
-				  <div class="control-group">
-					<input type="text" class="span2" id="inputEmail" placeholder="Email">
-				  </div>
-				  <div class="control-group">
-					<input type="password" class="span2" id="inputPassword" placeholder="Password">
-				  </div>
-				  <div class="control-group">
-					<label class="checkbox">
-					<input type="checkbox"> Remember me
-					</label>
-					<button type="submit" class="shopBtn btn-block">Sign in</button>
-				  </div>
-				</form>
-				</div>
-			</li>
-			</ul>
-		  </div>
 		</div>
 	  </div>
 	</div>

@@ -3,7 +3,10 @@
     <li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
     <li><a href="<?php echo base_url();?>index.php/Masuk/keyboard">Items</a> <span class="divider">/</span></li>
     <li class="active">Preview</li>
-    </ul>	
+    </ul>
+
+	<form class="form-horizontal qtyFrm" action="<?= base_url();?>index.php/Masuk/add_cart" method="POST">
+	
 	<div class="well well-small">
 	<div class="row-fluid">
 			<div class="span5">
@@ -23,22 +26,36 @@
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
             </div>
 			</div>
+			
+			<?php
+			
+			
+			
+			?>
+			
 			<div class="span7">
-				<h3>Razer BlackWidow Chroma Gaming Keyboard</h3>
+				<h3 name="productname">Razer BlackWidow Chroma Gaming Keyboard</h3>
+				
 				<hr class="soft"/>
 				
-				<form class="form-horizontal qtyFrm">
+				
+				<form class="form-horizontal qtyFrm" action="<?= base_url();?>index.php/Masuk/add_cart" method="POST">
 				  <div class="control-group">
-					<label class="control-label"><span>Rp.1.850.000</span></label>
+				  
+				  
+					<label class="control-label" name="unitprice" ><span>Rp.1.850.000</span></label>
+					
 					<div class="controls">
-					<input type="number" class="span6" placeholder="Qty.">
+					<input type="number" name="qty" class="span6" placeholder="Qty.">
 					</div>
 				  </div>
-				
+				  
+				  
 				  <br><br><br><br></br>
 				  
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span>    BUY    </button>
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
+				 <a href="<?php echo base_url();?>index.php/Masuk/rekening"><button type="button" class="shopBtn"><span class=" icon-shopping-cart"></span>BUY</button></a>
+				  
+				 <a href="<?php echo base_url();?>index.php/Masuk/cart"><button type="button" name="submitaddcart" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
 				</form>
 			</div>
 			</div>

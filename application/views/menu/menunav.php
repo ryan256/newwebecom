@@ -9,8 +9,11 @@
 					<a href="#"><span class="icon-tumblr"></span></a>
 				</div>
 				<a href="<?php if($title=='TRUSH SHOP') echo 'active'; ?>"><a href="<?php echo site_url('');?>"> <span class="icon-home"></span> Home</a> 
-				<a href="#"><span class="icon-user"></span> My Account</a> 
+				
+				<a href="#"><span class="icon-user"></span> My Account<?php  ?></a> 
+				
 				<a href="<?php if($title=='Register') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/regis"><span class="icon-edit"></span> Free Register </a> 
+				<a href="<?php if($title=='Login') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/login"><span class="icon-user"></span> Login</a>
 				<a href="<?php if($title=='Contact') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/contact"><span class="icon-envelope"></span> Contact us</a>
 				<a href="<?php if($title=='Cart') echo 'active'; ?>"><a href="<?php echo base_url();?>index.php/Masuk/cart"><span class="icon-shopping-cart"></span> 0 Item(s) - <span class="badge badge-warning"> Rp.- </span></a>
 			</div>

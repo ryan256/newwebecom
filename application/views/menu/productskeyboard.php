@@ -16,7 +16,7 @@
 				<div class="caption cntr">
 					<p>Razer BlackWidow Chroma Gaming Keyboard</p>
 					<p><strong>Rp.1.850.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -37,7 +37,7 @@
 				<div class="caption cntr">
 					<p>NYK K-01 TKL</p>
 					<p><strong>Rp.120.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>

@@ -49,7 +49,7 @@
         <div class="caption cntr">
           <p>AMD A10-7870K</p>
           <p><strong> Rp.1.985.000</strong></p>
-          <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+          <h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
           <div class="actionList">
             <a class="pull-left" href="#">Add to Wish List </a> 
             <a class="pull-left" href="#"> Add to Compare </a>          </div> 
@@ -64,7 +64,7 @@
         <div class="caption cntr">
           <p>Razer BlackWidow Chroma Gaming Keyboard</p>
           <p><strong>Rp.1.850.000</strong></p>
-          <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+          <h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
           <div class="actionList">
             <a class="pull-left" href="#">Add to Wish List </a> 
             <a class="pull-left" href="#"> Add to Compare </a>          </div> 
@@ -79,7 +79,7 @@
         <div class="caption cntr">
           <p>Corsair SO-DIMM DDR3 8GB PC12800(2X4GB)</p>
           <p><strong>Rp.1.170.000</strong></p>
-          <h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+          <h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
           <div class="actionList">
             <a class="pull-left" href="#">Add to Wish List </a> 
             <a class="pull-left" href="#"> Add to Compare </a>          </div> 
@@ -106,7 +106,7 @@
           <h5>Acer Predator Helios 300 PH317-51</h5>
           <h5>
             <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop2" title="Click to view"><span class="icon-zoom-in"></span></a>
-            <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
+            <a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.22.999.000</span></h5>
         </div>
         </div>
@@ -119,7 +119,7 @@
           <h5>Dell Alienware 15 R3</h5>
           <h5>
             <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop1" title="Click to view"><span class="icon-zoom-in"></span></a>
-            <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
+            <a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.20.790.000</span></h5>
         </div>
         </div>
@@ -132,7 +132,7 @@
           <h5>Asus ROG Strix GL 753VD</h5>
           <h5>
             <a class="defaultBtn" href="<?php echo base_url();?>index.php/Masuk/produklaptop3" title="Click to view"><span class="icon-zoom-in"></span></a>
-            <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
+            <a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"><span class="icon-plus"></span></a>
             <span class="pull-right">Rp.20.999.000</span></h5>
         </div>
         </div>

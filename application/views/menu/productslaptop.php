@@ -16,7 +16,7 @@
 				<div class="caption cntr">
 					<p>Dell Alienware 15 R3</p>
 					<p><strong>Rp.20.790.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -37,7 +37,7 @@
 				<div class="caption cntr">
 					<p>Acer Predator Helios 300 PH317-51</p>
 					<p><strong>Rp.22.999.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -58,7 +58,7 @@
 				<div class="caption cntr">
 					<p>Asus ROG Strix GL 753VD</p>
 					<p><strong>Rp.20.999.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -83,7 +83,7 @@
 				<div class="caption cntr">
 					<p>ASUS VivoBook Max X441NA</p>
 					<p><strong> Rp.3.750.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -104,7 +104,7 @@
 				<div class="caption cntr">
 					<p>DELL New Inspiron 15 7000 Gaming 7567 ZAC030</p>
 					<p><strong> Rp.26.180.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>

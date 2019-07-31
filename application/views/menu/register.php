@@ -3,86 +3,56 @@
 		<li><a href="<?php echo site_url('');?>">Home</a> <span class="divider">/</span></li>
 		<li class="active">Registration</li>
     </ul>
+	
 	<h3> Registration</h3>	
 	<hr class="soft"/>
 	<div class="well">
-	<form class="form-horizontal">
+	<form class="form-horizontal" action="<?= base_url();?>index.php/Masuk/register_save" method="POST">
+	
 		<h3>Your Personal Details</h3>
+		
+		
 		<div class="control-group">
-		<label class="control-label">Title <sup>*</sup></label>
-		<div class="controls">
-		<select class="span1" name="days">
-			<option value="">-</option>
-			<option value="1">Mr.</option>
-			<option value="2">Mrs</option>
-			<option value="3">Miss</option>
-		</select>
-		</div>
-		</div>
-		<div class="control-group">
-			<label class="control-label" for="inputFname">First name <sup>*</sup></label>
+			<label class="control-label" >Account <sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="inputFname" placeholder="First Name">
+			  <input type="text" name="account" placeholder="Account" required>
 			</div>
 		 </div>
+		 
 		 <div class="control-group">
-			<label class="control-label" for="inputLname">Last name <sup>*</sup></label>
+			<label class="control-label" >Full Name <sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="inputLname" placeholder="Last Name">
+			  <input type="text" name="fname" placeholder="Full Name" required>
 			</div>
 		 </div>
+		 
 		<div class="control-group">
-		<label class="control-label" for="inputEmail">Email <sup>*</sup></label>
+		<label class="control-label" >Email <sup>*</sup></label>
 		<div class="controls">
-		  <input type="text" placeholder="Email">
+		  <input type="text" name="email" placeholder="Email">
 		</div>
-	  </div>	  
+	  </div>
+	  
+		<div class="control-group">
+		<label class="control-label" for="inputEmail"> Phone Number <sup>*</sup></label>
+		<div class="controls">
+		  <input type="number" name="pnumber" placeholder="Phone Number" required>
+		</div>
+	  </div>		  
+	  
 		<div class="control-group">
 		<label class="control-label">Password <sup>*</sup></label>
 		<div class="controls">
-		  <input type="password" placeholder="Password">
+		  <input type="password" name="password" placeholder="Password" required>
 		</div>
 	  </div>
-		<div class="control-group">
-		<label class="control-label">Date of Birth <sup>*</sup></label>
-		<div class="controls">
-		  <select class="span1" name="days">
-				<option value="">-</option>
-					<option value="1">1&nbsp;&nbsp;</option>
-					<option value="2">2&nbsp;&nbsp;</option>
-					<option value="3">3&nbsp;&nbsp;</option>
-					<option value="4">4&nbsp;&nbsp;</option>
-					<option value="5">5&nbsp;&nbsp;</option>
-					<option value="6">6&nbsp;&nbsp;</option>
-					<option value="7">7&nbsp;&nbsp;</option>
-			</select>
-			<select class="span1" name="days">
-				<option value="">-</option>
-					<option value="1">1&nbsp;&nbsp;</option>
-					<option value="2">2&nbsp;&nbsp;</option>
-					<option value="3">3&nbsp;&nbsp;</option>
-					<option value="4">4&nbsp;&nbsp;</option>
-					<option value="5">5&nbsp;&nbsp;</option>
-					<option value="6">6&nbsp;&nbsp;</option>
-					<option value="7">7&nbsp;&nbsp;</option>
-			</select>
-			<select class="span1" name="days">
-				<option value="">-</option>
-					<option value="1">1&nbsp;&nbsp;</option>
-					<option value="2">2&nbsp;&nbsp;</option>
-					<option value="3">3&nbsp;&nbsp;</option>
-					<option value="4">4&nbsp;&nbsp;</option>
-					<option value="5">5&nbsp;&nbsp;</option>
-					<option value="6">6&nbsp;&nbsp;</option>
-					<option value="7">7&nbsp;&nbsp;</option>
-			</select>
-		</div>
-	  </div>
+	  
 	<div class="control-group">
 		<div class="controls">
-		 <input type="submit" name="submitAccount" value="Register" class="exclusive shopBtn">
+		 <input type="submit" value="Register" class="exclusive shopBtn">
 		</div>
 	</div>
+	
 	</form>
 </div>
 

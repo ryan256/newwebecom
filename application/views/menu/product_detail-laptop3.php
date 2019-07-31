@@ -37,8 +37,8 @@
 				
 				 <br><br><br><br></br>
 				  
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span>    BUY    </button>
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
+				  <a href="<?php echo base_url();?>index.php/Masuk/rekening"><button type="button" class="shopBtn"><span class=" icon-shopping-cart"></span>BUY</button></a>
+				 <a href="<?php echo base_url();?>index.php/Masuk/cart"><button type="button" name="submitaddcart" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
 				</form>
 			</div>
 			</div>

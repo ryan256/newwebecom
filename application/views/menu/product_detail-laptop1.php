@@ -27,7 +27,7 @@
 				<h3>Dell Alienware 15 R3</h3>
 				<hr class="soft"/>
 				
-				<form class="form-horizontal qtyFrm">
+				<form class="form-horizontal qtyFrm" >
 				  <div class="control-group">
 					<label class="control-label"><span>Rp.20.790.000</span></label>
 					<div class="controls">
@@ -37,8 +37,8 @@
 				
 				  <br><br><br><br></br>
 				  
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span>    BUY    </button>
-				  <button type="submit" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
+				  <a href="<?php echo base_url();?>index.php/Masuk/rekening"><button type="button" class="shopBtn"><span class=" icon-shopping-cart"></span>BUY</button></a>
+				  <a href="<?php echo base_url();?>index.php/Masuk/cart"><button type="button" name="submitaddcart" class="shopBtn"><span class=" icon-shopping-cart"></span> Add to cart</button>
 				</form>
 			</div>
 			</div>

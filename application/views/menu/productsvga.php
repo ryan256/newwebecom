@@ -16,7 +16,7 @@
 				<div class="caption cntr">
 					<p>Corsair SO-DIMM DDR3 8GB PC12800(2X4GB)</p>
 					<p><strong>Rp.1.170.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
@@ -37,7 +37,7 @@
 				<div class="caption cntr">
 					<p>Nvidia Quadro M6000</p>
 					<p><strong>Rp.79.500.000</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<h4><a class="shopBtn" href="<?php echo base_url();?>index.php/Masuk/cart" title="add to cart"> Add to cart </a></h4>
 					<div class="actionList">
 						<a class="pull-left" href="#">Add to Wish List </a> 
 						<a class="pull-left" href="#"> Add to Compare </a>
